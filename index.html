@@ -1,0 +1,32 @@
+<head>
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="lookshelf.css">
+</head>
+<body>
+    <div class="out-block">
+        <div id="barcode-reader" style="width: 1200px"></div>
+        <div class="right-panel">
+            <div id="book-info-preview" class="preview-pane">
+                <div id="book-title" class="preview-row">
+                    <span>Title: </span>
+                    <span id="title-replace"></span>
+                </div>
+                <div id="book-author" class="preview-row">
+                    <span>Author: </span>
+                    <span id="author-replace"></span>
+                </div>
+                <div id="book-year-published" class="preview-row">
+                    <span>Published: </span>
+                    <span id="year-replace"></span>
+                </div>
+                <div class="preview-image">
+                    <img id="image-replace" src = ""/>
+                </div>
+            </div>
+            <button id="discard-button"> Discard </button>
+            <button id="yeah-button"> Yeah! </button>
+        </div>
+    </div>
+    
+</body>

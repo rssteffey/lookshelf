@@ -1,0 +1,33 @@
+.out-block{
+    display: flex;
+    flex-direction: row;
+}
+
+.right-panel{
+    margin: 1em;
+}
+
+.preview-pane{
+    min-width: 300px;
+    padding: 2em;
+    border: 1px black solid;
+}
+
+.preview-row{
+    margin: 1em;
+}
+
+#yeah-button{
+    float: right;
+    margin-top: 1em;
+}
+
+#discard-button{
+    margin-top: 1em;
+}
+
+@media only screen and (device-width: 390px) and (-webkit-device-pixel-ratio: 3){
+    .out-block{
+        flex-direction: column;
+    }
+}
